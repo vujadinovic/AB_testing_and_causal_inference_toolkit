@@ -17,3 +17,8 @@ There is no closed form solution for this function, so we will have to numerical
 We can go about it in two ways: Acklam and Wichura algorithms.  <br>
 Wichura is the industry standard, but we ho with Acklam for the simplicity with the idea to upgrade to Wichura later.
 TBF: As of now, this is a copy-paste implementation on my side.
+
+
+
+## Two proportion hypothesis testing
+TO DO
