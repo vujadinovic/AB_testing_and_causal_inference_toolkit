@@ -9,8 +9,6 @@ def standard_normal_cdf(z):
     erf_vec = np.vectorize(math.erf)
     return 0.5*(1 + erf_vec(z/np.sqrt(2.0)))
     
-
-
     
 def standard_normal_ppf(p: float) -> float:
     if p <= 0.0 or p >= 1.0:
@@ -86,4 +84,3 @@ def standard_normal_ppf(p: float) -> float:
 
     res = num / den
     return res if p < p_low else -res
-    pass
