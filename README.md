@@ -21,4 +21,10 @@ TBF: As of now, this is a copy-paste implementation on my side.
 
 
 ## Two proportion hypothesis testing
-TO DO
+For two groups with observed success rates $p\_A$ and $p\_B$, the null hypothesis is $p\_A = p\_B$. Under that null, the sampling distribution of the difference $\hat{p}\_B - \hat{p}\_A$ is approximately normal with mean $0$ and standard deviation equal to the pooled standard error $SE\_{\text{pool}}$.
+
+The standardized test statistic is:
+
+$$z = \frac{\hat{p}_B - \hat{p}_A}{SE_{\text{pool}}}$$
+
+A positive $z$ means group B outperformed group A; a negative $z$ means the reverse. Values with $|z| > 1.96$ correspond to a two-sided p-value below $0.05$.
