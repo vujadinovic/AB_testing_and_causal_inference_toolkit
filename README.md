@@ -28,3 +28,7 @@ The standardized test statistic is:
 $$z = \frac{\hat{p}_B - \hat{p}_A}{SE_{\text{pool}}}$$
 
 A positive $z$ means group B outperformed group A; a negative $z$ means the reverse. Values with $|z| > 1.96$ correspond to a two-sided p-value below $0.05$.
+
+
+## Sample ratio mismatch diagnostics
+Microsoft (and LinkedIn) say that around 6% (10%) of A/B tests have SRM.
