@@ -31,4 +31,4 @@ A positive $z$ means group B outperformed group A; a negative $z$ means the reve
 
 
 ## Sample ratio mismatch diagnostics
-Microsoft (and LinkedIn) say that around 6% (10%) of A/B tests have SRM.
+Microsoft (and LinkedIn) say that around 6% (10%) of A/B tests have SRM (https://www.microsoft.com/en-us/research/articles/diagnosing-sample-ratio-mismatch-in-a-b-testing/).
