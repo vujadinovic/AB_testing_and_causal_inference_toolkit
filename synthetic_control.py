@@ -29,3 +29,13 @@ def fit_synthetic_control_weights(treated_pre, donor_pre, num_iterations=5000, l
     return np.exp(theta) / np.sum(np.exp(theta))
 
     
+def synthetic_control_effect(treated_post, donor_post, weights):
+    results = {}
+
+    results["synthetic"] = np.asarray(donor_post @ weights)
+    results["gap"] = treated_post - results["synthetic"] 
+    results["average_effect"] = np.sum(results["gap"]) / len(results["synthetic"] )
+
+    return results
+
+    
